@@ -14,7 +14,7 @@
 	"author": "Hiexy",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon",
+		"dev": "drizzle-kit push && tsx ./src/index.ts",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
@@ -25,7 +25,6 @@
 		"@types/express": "^5.0.6",
 		"@types/pg": "^8.23.1",
 		"drizzle-kit": "^1.0.0-rc.4",
-		"nodemon": "^3.1.14",
 		"tsx": "^4.23.13",
 		"typescript": "^7.0.2"
 	},
