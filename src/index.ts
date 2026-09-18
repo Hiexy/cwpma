@@ -4,6 +4,15 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import compression from "compression";
 import cors from "cors";
+import 'dotenv/config';
+import { drizzle } from 'drizzle-orm/node-postgres';
+
+const db = drizzle({
+	connection: {
+		connectionString: process.env.DATABASE_URL!,
+		ssl: true
+	}
+});
 
 const app = express();
 
