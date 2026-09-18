@@ -1,37 +1,37 @@
 {
-  "name": "cwpma",
-  "version": "0.0.0",
-  "description": "Website that helps groups pick a movie",
-  "homepage": "https://github.com/Hiexy/cwpma#readme",
-  "bugs": {
-    "url": "https://github.com/Hiexy/cwpma/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hiexy/cwpma.git"
-  },
-  "license": "ISC",
-  "author": "Hiexy",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@types/body-parser": "^1.19.6",
-    "@types/compression": "^1.8.1",
-    "@types/cookie-parser": "^1.4.10",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "nodemon": "^3.1.14",
-    "tsx": "^4.23.13",
-    "typescript": "^7.0.2"
-  },
-  "dependencies": {
-    "body-parser": "^2.3.0",
-    "compression": "^1.8.2",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
-  }
+	"name": "cwpma",
+	"version": "0.0.0",
+	"description": "Website that helps groups pick a movie",
+	"homepage": "https://github.com/Hiexy/cwpma#readme",
+	"bugs": {
+		"url": "https://github.com/Hiexy/cwpma/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Hiexy/cwpma.git"
+	},
+	"license": "ISC",
+	"author": "Hiexy",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@types/body-parser": "^1.19.6",
+		"@types/compression": "^1.8.1",
+		"@types/cookie-parser": "^1.4.10",
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.6",
+		"nodemon": "^3.1.14",
+		"tsx": "^4.23.13",
+		"typescript": "^7.0.2"
+	},
+	"dependencies": {
+		"body-parser": "^2.3.0",
+		"compression": "^1.8.2",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.6",
+		"express": "^5.2.1"
+	}
 }
